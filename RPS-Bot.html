@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Patrick Burke</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/headshot.jpg" alt="" /></span>
+							<h1 id="title">Patrick Burke</h1>
+							<p>Robotics Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio Hub</span></a></li>
+								<li><a href="Maze-Bot.html" id="portfolio-link"><span class="icon solid fa-archive">Maze-Bot</span></a></li>
+								<li><a href="RPS-Bot.html" id="portfolio-link"><span class="icon solid fa-archive">RPS-Bot</span></a></li>
+								<li><a href="DDP_Path_Planning.html" id="portfolio-link"><span class="icon solid fa-archive">DDP Path Planning</span></a></li>
+								<li><a href="PFP_Tray.html" id="portfolio-link"><span class="icon solid fa-archive">PFP Tray</span></a></li>
+								<li><a href="Light_Orb.html" id="portfolio-link"><span class="icon solid fa-archive">Light Orb</span></a></li>
+								<li><a href="Drill_Vacuum.html" id="portfolio-link"><span class="icon solid fa-archive">Drill Vacuum</span></a></li>
+								<li><a href="index.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/patrick-burke-19137914a/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="six dark cover">
+						<div class="container">
+
+							<header>
+								<p> </p>
+									<p> </p>
+								<h2 class="alt"><strong>Rock-Paper-Scissors Robot</strong></h2>
+
+							</header>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/8mN0xVC3txM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<p>The goal of this project was to create a robot that would play rock paper scissors with you and keep track of the score.</p>
+							<a class="image featured"><img src="images/rps2.png" alt="" /></a>
+							<p>A 3d model of a hand was found online and 3d printed. It was actuated with three servos to create all three rock paper scissor hand configurations and shake the arm to count down.</p>
+							<a class="image featured"><img src="images/rps1.png" alt="" /></a>
+							<p>OpenCV was utilized to detect colored circles on the player’s hand determining what configuration their hand was in, with this and knowledge of what the robot played the robot could automatically update the score and play a video depending on the outcome of the game.</p>
+							<a class="image featured"><img src="images/rps3.png" alt="" /></a>
+							<p>A raspberry pi running a python script controlled the UI software, CV and randomly generated what hand configuration to play. An Arduino controlled the servos actuating the hand.</p>
+
+							
+					</section>
+
+			</div>
+
+
+		<!-- Footer -->
+			<div id="footer">
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
