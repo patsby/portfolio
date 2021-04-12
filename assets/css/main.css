@@ -2219,7 +2219,7 @@ input, select, textarea {
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			background-image: url("images/overlay.png");
+			background-image: url("images/overlay.jpg");
 		}
 
 			#main > section.dark {
@@ -2256,6 +2256,7 @@ input, select, textarea {
 				background-image: url("../../images/banner.jpg");
 			}
 
+
 			#main > section.two {
 				background-color: #f5fafa;
 			}
@@ -2266,6 +2267,46 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+
+			#main > section.five {
+				background-color: #f5fafa;
+				background-image: url("../../images/MUBot.jpg");
+			}
+
+			#main > section.six {
+				background-color: #ecf1f1;
+				background-image: url("../../images/tennisbot.png");
+			}
+
+			#main > section.seven {
+				background-color: #e8edec;
+				background-image: url("../../images/rpsbot.jpg");
+			}
+
+			#main > section.eight {
+				background-color: #e8edec;
+				background-image: url("../../images/ddp3.jpg");
+			}
+
+			#main > section.nine {
+				background-color: #e8edec;
+				background-image: url("../../images/pfp.jpg");
+			}
+
+			#main > section.ten {
+				background-color: #e8edec;
+				background-image: url("../../images/banner.jpg");
+			}
+
+			#main > section.eleven {
+				background-color: #e8edec;
+				background-image: url("../../images/vacuum_banner.png");
+			}
+
+			#main > section.twelve {
+				background-color: #e8edec;
+				background-image: url("../../images/rpsbot.jpg");
 			}
 
 /* Wide */

@@ -2244,7 +2244,6 @@ input, select, textarea {
 					#main > section.dark a:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
-
 			#main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
@@ -2253,11 +2252,10 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #ecf1f1;
 			}
 
 			#main > section.three {
@@ -2270,32 +2268,26 @@ input, select, textarea {
 
 			#main > section.five {
 				background-color: #81918E;
-				background-image: url("../../images/tennisbot.png");
 			}
 
 			#main > section.six {
 				background-color: #81918E;
-				background-image: url("../../images/rpsbot.jpg");
 			}
 
 			#main > section.seven {
 				background-color: #81918E;
-				background-image: url("../../images/everest.jpg");
 			}
 
 			#main > section.eight {
 				background-color: #81918E;
-				background-image: url("../../images/pfp.jpg");
 			}
 
 			#main > section.nine {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.ten {
 				background-color: #81918E;
-				background-image: url("../../images/vacuum.png");
 			}
 
 
