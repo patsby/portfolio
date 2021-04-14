@@ -2253,7 +2253,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/light_orb_banner.jpg");
 			}
 
 
@@ -2271,7 +2271,7 @@ input, select, textarea {
 
 			#main > section.five {
 				background-color: #f5fafa;
-				background-image: url("../../images/MUBot.jpg");
+				background-image: url("../../images/MUBot_banner.jpg");
 			}
 
 			#main > section.six {
@@ -2296,7 +2296,7 @@ input, select, textarea {
 
 			#main > section.ten {
 				background-color: #e8edec;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/light_orb_banner.jpg");
 			}
 
 			#main > section.eleven {
@@ -2307,6 +2307,11 @@ input, select, textarea {
 			#main > section.twelve {
 				background-color: #e8edec;
 				background-image: url("../../images/rpsbot.jpg");
+			}
+
+			#main > section.thirteen {
+				background-color: #e8edec;
+				background-image: url("../../images/3D_prints_banner.jpg");
 			}
 
 /* Wide */
